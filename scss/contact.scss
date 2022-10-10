@@ -1,0 +1,34 @@
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: #c71586ba;
+
+    form{
+        margin: 0 auto;
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        input{
+            margin-bottom: 20px;
+            padding: 1.4rem;
+        }
+
+        select{
+            margin-bottom: 20px;
+            padding: 1.4rem;
+        }
+
+        textarea{
+            margin-bottom: 20px;
+            padding: 1.4rem;
+        }
+
+        button{
+            
+            width: 25%;
+            margin: 0 auto;
+        }
+    }
+}

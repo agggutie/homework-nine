@@ -1,0 +1,59 @@
+.products{
+    width: 100%;
+    height: 2500px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+
+
+    .row{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        width: 90%;
+        height: 30%;
+        display: flex;
+
+        .left{
+            position: relative;
+            width: 80%;
+            display: flex;
+
+            .imageHolder{
+                width: 100%;
+                height: 100%;
+
+                img{
+                    height: 100%;
+                }
+            }
+            
+
+            .textHolder{
+                position: absolute;
+                top: 60%;
+                left: 48%;
+                
+                p{
+                    font-size: 33px;
+                    color: red;
+                }
+            }
+        }
+
+        .right{
+            position: relative;
+            width: 20%;
+
+            .btn{
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                top: 45%;
+
+            }
+
+        }
+
+    }
+}
